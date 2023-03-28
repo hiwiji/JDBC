@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<comment>driver.xml file</comment>
+	
+	<!-- 마크업 언어 주석  -->
+	<!-- ctrl + shift + /(슬래시) --> 
+	
+	
+	<!-- entry : K:V 한 쌍  -->
+	<entry key="driver">oracle.jdbc.driver.OracleDriver</entry>   <!--value 값은 <> 사이에다가 넣는데, 
+	                                                                  모두 다 값으로 인식해서
+	                                                                  띄어쓰기도 함부로 하면 안됨  -->  
+	<entry key="url">jdbc:oracle:thin:@localhost:1521:xe</entry> 
+	
+	<entry key="user">kh</entry> 
+	
+	<entry key="password">kh1234</entry> 
+
+<!--XML파일은 컴파일에서 제외되는 외부파일이라 시간소요가 적음? 
+XML파일 따로 관리하는 이유  -->
+
+
+
+</properties>
